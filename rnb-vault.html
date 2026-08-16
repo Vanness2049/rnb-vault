@@ -398,8 +398,9 @@
   .keytracks li:last-child::after { content: ""; }
   .standout {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
-    gap: 0.8rem;
+    gap: 0.5rem 0.8rem;
     padding: 0.9rem 0 0;
     border-top: 1px dashed var(--rule);
   }
@@ -416,6 +417,8 @@
     font-style: italic;
     font-size: 1.08rem;
     color: var(--ink);
+    flex: 1;
+    min-width: 0;
   }
   .album-score {
     margin-top: 1.1rem;
@@ -557,7 +560,7 @@
         <div class="tags"><span class="tag">另类 R&amp;B</span><span class="tag">新灵魂乐</span><span class="tag">内省</span></div>
         <p class="album-note">封面是一片蓝调的、近乎抽象的风景画，像晨雾里的海岸线。Daniel Caesar 用吉他和清亮的嗓音搭出<em>最干净的房间</em>，把关于"永远不够"的焦虑唱得云淡风轻。它是深夜开车回家时的标配——车窗外是流动的蓝，车里是一个人终于卸下的疲惫。</p>
         <div class="keytracks"><div class="lbl">关键曲目</div><ul><li>Ocho Rios</li><li>Valentina</li><li>Always</li><li>Cool</li><li>Disillusioned</li></ul></div>
-        <div class="standout"><span class="lbl">一句封神</span><span class="t">Always</span></div>
+        <div class="standout"><span class="lbl">一句封神 · Always</span><span class="t">"I don't want things to change, I pray they stay the same, always"</span></div>
       </div>
     </article>
 
@@ -572,7 +575,7 @@
         <div class="tags"><span class="tag">当代 R&amp;B</span><span class="tag">另类 R&amp;B</span><span class="tag">流行</span></div>
         <p class="album-note">封面是 SZA 站在大西洋深蓝海面上，像在下沉又像在起飞。这抹蓝贯穿了整张专辑——二十三首歌是一场情绪的<em>全面溃堤</em>，从愤怒到嫉妒到自怜，最后漂回孤独的洋流。它是当代 R&amp;B 在商业与艺术之间最完美的一次握手。</p>
         <div class="keytracks"><div class="lbl">关键曲目</div><ul><li>SOS</li><li>Kill Bill</li><li>Snooze</li><li>Shirt</li><li>Nobody Gets Me</li></ul></div>
-        <div class="standout"><span class="lbl">一句封神</span><span class="t">Snooze</span></div>
+        <div class="standout"><span class="lbl">一句封神 · Snooze</span><span class="t">"How can I snooze and miss the moment? You just too important"</span></div>
       </div>
     </article>
 
@@ -587,7 +590,7 @@
         <div class="tags"><span class="tag">华语 R&amp;B</span><span class="tag">灵魂乐</span><span class="tag">开山之作</span></div>
         <p class="album-note">封面是冷调蓝光下的陶喆侧影，像一封从录音室寄出的蓝色请柬。这张专辑几乎是华语 R&amp;B 的<em>元年</em>——"飞机场的10:30"一出来，整个华语乐坛意识到原来中文歌可以这么唱。它把灵魂乐的律动和中文的咬字缝合在一起，至今仍是无数华语音乐人的教科书。</p>
         <div class="keytracks"><div class="lbl">关键曲目</div><ul><li>飞机场的10:30</li><li>爱，很简单</li><li>沙滩</li><li>流沙</li><li>望春风</li></ul></div>
-        <div class="standout"><span class="lbl">一句封神</span><span class="t">飞机场的10:30</span></div>
+        <div class="standout"><span class="lbl">一句封神 · 流沙</span><span class="t">"爱情好像流沙，我不挣扎，随它去吧"</span></div>
       </div>
     </article>
   </div>
@@ -608,9 +611,9 @@
     </div>
     <p class="lede">橙色是黄昏的颜色，是记忆被晒得发烫的颜色。这三张专辑都戴着橙色的滤镜，<em>像三张被日光冲淡的老照片</em>，里面装着少年、夏天和还没说出口的喜欢。</p>
 
-    <!-- 03 -->
+    <!-- 04 -->
     <article class="album">
-      <div class="album-rank">03<span class="o">AMBER</span></div>
+      <div class="album-rank">04<span class="o">AMBER</span></div>
       <div class="cover-wrap"><img class="cover-img" src="assets/cover_blonde.jpg" alt="Blonde album cover"></div>
       <div class="album-detail">
         <div class="album-title">Blonde</div>
@@ -619,13 +622,13 @@
         <div class="tags"><span class="tag">实验流行</span><span class="tag">另类 R&amp;B</span><span class="tag">内省</span></div>
         <p class="album-note">封面是 Frank 理着绿发，脸浸在橙色的光里，像一张被水洗过的宝丽来。他把流行乐拆解成最赤裸的碎片——吉他、失真的嗓音、未完成的句法，拼出一代人的<em>爱与虚无</em>。它不属于任何年份，只属于某个失眠的凌晨。</p>
         <div class="keytracks"><div class="lbl">关键曲目</div><ul><li>Nikes</li><li>Ivy</li><li>Pink + White</li><li>Self Control</li><li>Nights</li></ul></div>
-        <div class="standout"><span class="lbl">一句封神</span><span class="t">Nights</span></div>
+        <div class="standout"><span class="lbl">一句封神 · Self Control</span><span class="t">"Keep a place for me, for me"</span></div>
       </div>
     </article>
 
-    <!-- 04 -->
+    <!-- 05 -->
     <article class="album">
-      <div class="album-rank">04<span class="o">AMBER</span></div>
+      <div class="album-rank">05<span class="o">AMBER</span></div>
       <div class="cover-wrap"><img class="cover-img" src="assets/cover_channel_orange.jpg" alt="Channel Orange album cover"></div>
       <div class="album-detail">
         <div class="album-title">Channel Orange</div>
@@ -634,13 +637,13 @@
         <div class="tags"><span class="tag">另类 R&amp;B</span><span class="tag">灵魂乐</span><span class="tag">迷幻</span></div>
         <p class="album-note">顾名思义，整张专辑都泡在橙色里——洛杉矶夏天的橙色、橙色仪表盘的反光、橙色汽水罐上的水珠。Frank Ocean 的处女作一上来就重写了 R&amp;B 的语法，把说唱的叙事、灵魂的质感和迷幻的合成器<em>缝进同一件橙色外套</em>。它是十年后仍听得见回声的那一声问候。</p>
         <div class="keytracks"><div class="lbl">关键曲目</div><ul><li>Thinkin Bout You</li><li>Sweet Life</li><li>Super Rich Kids</li><li>Pyramids</li><li>Bad Religion</li></ul></div>
-        <div class="standout"><span class="lbl">一句封神</span><span class="t">Pyramids</span></div>
+        <div class="standout"><span class="lbl">一句封神 · Thinkin Bout You</span><span class="t">"My eyes don't shed tears, but boy, they bawl when I'm thinkin' 'bout you"</span></div>
       </div>
     </article>
 
-    <!-- 05 -->
+    <!-- 06 -->
     <article class="album">
-      <div class="album-rank">05<span class="o">AMBER</span></div>
+      <div class="album-rank">06<span class="o">AMBER</span></div>
       <div class="cover-wrap"><img class="cover-img" src="assets/cover_orange_moon.jpg" alt="橙月 Orange Moon album cover"></div>
       <div class="album-detail">
         <div class="album-title">橙月 Orange Moon</div>
@@ -649,7 +652,7 @@
         <div class="tags"><span class="tag">华语 R&amp;B</span><span class="tag">新灵魂乐</span><span class="tag">放克</span></div>
         <p class="album-note">封面拍摄于上海绍兴路，暖橙色的夕阳洒在老洋房上，像一整张专辑的<em>情绪注脚</em>。方大同用这轮橙月，把华语 R&amp;B 从模仿推向了自成一格——"Singalongsong"和"三人游"既有 Stevie Wonder 的律动基因，又长着中文的骨架。它是华语灵魂乐最暖的一张名片。</p>
         <div class="keytracks"><div class="lbl">关键曲目</div><ul><li>Singalongsong</li><li>三人游</li><li>如果爱</li><li>黑洞里</li><li>为你写的歌</li></ul></div>
-        <div class="standout"><span class="lbl">一句封神</span><span class="t">Singalongsong</span></div>
+        <div class="standout"><span class="lbl">一句封神 · 黑洞里</span><span class="t">"你的太阳系活在阳光里，为何总是跟着不变的旧轨迹，我的一片地，藏在黑洞里"</span></div>
       </div>
     </article>
   </div>
@@ -670,9 +673,9 @@
     </div>
     <p class="lede">绯红是血液的颜色，也是必须说出口的告白。这张唱片把父亲的肖像压在深红背景上，<em>像一封写给血缘的信</em>——有和解，有质问，也有终于放下的那声叹息。</p>
 
-    <!-- 06 -->
+    <!-- 07 -->
     <article class="album">
-      <div class="album-rank">06<span class="o">CRIMSON</span></div>
+      <div class="album-rank">07<span class="o">CRIMSON</span></div>
       <div class="cover-wrap"><img class="cover-img" src="assets/cover_son_of_spergy.jpg" alt="Son of Spergy album cover"></div>
       <div class="album-detail">
         <div class="album-title">Son of Spergy</div>
@@ -680,8 +683,8 @@
         <div class="album-meta">2025 · <span>Republic Records</span> · 第四张录音室专辑</div>
         <div class="tags"><span class="tag">另类 R&amp;B</span><span class="tag">福音</span><span class="tag">自传</span></div>
         <p class="album-note">封面是 Daniel Caesar 父亲的肖像，衬着一整片浓得化不开的深红。"Spergy" 是父亲的外号，整张专辑是一场父子之间迟到多年的对话<sup><a href="#cite-4">[4]</a></sup>。他把信仰、成长与血缘里的伤，唱成<em>克制的、近乎祈祷的告白</em>。它是 2025 年最私人、也最温柔的一张 R&amp;B 唱片。</p>
-        <div class="keytracks"><div class="lbl">关键曲目</div><ul><li>Call On Me</li><li>Have A Baby (With Me)</li><li>Moon</li></ul></div>
-        <div class="standout"><span class="lbl">一句封神</span><span class="t">Have A Baby (With Me)</span></div>
+        <div class="keytracks"><div class="lbl">关键曲目</div><ul><li>Call On Me</li><li>Have A Baby (With Me)</li><li>Who Knows</li><li>Moon</li></ul></div>
+        <div class="standout"><span class="lbl">一句封神 · Who Knows</span><span class="t">"Maybe we get married one day, but who knows"</span></div>
       </div>
     </article>
   </div>
